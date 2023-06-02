@@ -6,3 +6,6 @@ cantidadDeManzana = int(input("¿Cuantas manzanas compraste?"))
 
 print("Va a pagar:", precioDeManzana * cantidadDeManzana)
 
+#CONCATENACION
+#https://j2logo.com/como-concatenar-y-formatear-strings/
+
