@@ -1,5 +1,5 @@
-precioDeManzana: int = 5
-cantidadDeManzana: int = 2
+precioDeManzana: int = 10
+cantidadDeManzana: int = 5
 
 print("Va a pagar:", precioDeManzana * cantidadDeManzana)
 
