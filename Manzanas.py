@@ -1,11 +1,14 @@
 precioDeManzana = 5
-cantidadDeManzana = int(input("¿Cuantas manzanas compraste?")) 
-#input recibe valores de tipo string
-# el int antes de el input es para que nos pregunte solo numeros enternos 
+cantidadDeManzana = int(input("¿Cuántas manzanas compraste? "))
 
+# input recibe valores de tipo string
+# el int antes del input es para que solo nos pregunte números enteros
 
-print("Va a pagar:", precioDeManzana * cantidadDeManzana)
+descuento = (cantidadDeManzana * precioDeManzana) * 0.10
 
-#CONCATENACION
-#https://j2logo.com/como-concatenar-y-formatear-strings/
+if cantidadDeManzana >= 10:
+    print("Va a pagar con descuento:", descuento)
+
+if descuento > 0:
+    print("El descuento fue:", descuento)
 
