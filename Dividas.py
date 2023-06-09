@@ -1,19 +1,14 @@
+print("Convertidor de pesos a dólares")
+print("-------------------".center(30, "x"))
 
-print("Convertidor de pesos a dolares".format("x"))
-print("+--------------------+----------+".center("x"))
-
-pesos = int(input("¿Cuantos pesos quieres convertir? "))
-valor_dolar = int(input("¿En cuanto se encuenta el Dolar? "))
+pesos = float(input("¿Cuántos pesos quieres convertir? "))
+valor_dolar = float(input("¿En cuánto se encuentra el Dólar? "))
 
 conversion = pesos / valor_dolar
 
+print("-".center(30, "x"))
 
-print("+--------------------+----------+".center("x"))
-
-print("Su equivalente en dolares es:", conversion)
-
-
-
+print(f"Su equivalente en dólares es: {conversion}")
 
 
 
