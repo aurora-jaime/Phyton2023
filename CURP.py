@@ -30,7 +30,7 @@ def homoclave():
     homo += ''.join(random.choices(num, k=2))
 
 print("\tAqui se va juntando la curp:  ")
-print(ape_pa[:2].upper(), ape_ma[:1].upper(), nombre[:1].upper(), ultimos_dos_digitos, mes, dia, homoclave(homoclave))
+print(ape_pa[:2].upper(), ape_ma[:1].upper(), nombre[:1].upper(), ultimos_dos_digitos, mes, dia, homoclave())
 
 
 
