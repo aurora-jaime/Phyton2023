@@ -6,3 +6,6 @@ for letter in nombre:
     
 for element in lista:
   print(element)
+  
+  
+   
